@@ -1,0 +1,11 @@
+Source: python3-async-cron
+Maintainer: André Roth <neolynx@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 7), dh-python, python3-setuptools, python3-all, git-core
+Standards-Version: 3.9.7
+
+Package: python3-async-cron
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python3-cryptography, python3-aiohttp, python3-aiohttp-jrpc, python3-aiohttp-session, python3-aiohttp-swagger
+Description: crontab for python, with asyncio

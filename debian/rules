@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME = async_core
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
