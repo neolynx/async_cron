@@ -7,5 +7,5 @@ Standards-Version: 3.9.7
 
 Package: python3-async-cron
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python3-cryptography, python3-aiohttp, python3-aiohttp-jrpc, python3-aiohttp-session, python3-aiohttp-swagger
+Depends: ${misc:Depends}, ${python:Depends}, python3-arrow
 Description: crontab for python, with asyncio
